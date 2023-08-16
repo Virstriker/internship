@@ -1,0 +1,118 @@
+#nav1{
+    display: none;
+}
+#nav3 span{
+    display: none;
+}
+#nav3 span:nth-child(3){
+    display: block;
+    font-size: 18px;
+}
+#nav2 span{
+    font-size: 42px;
+    margin: 15px 0px;
+}
+#nav2{
+    justify-content: left;
+}
+.nav{
+    width: 50%;
+}   
+#menu{
+    display: none;
+    background-color: rgb(24, 24, 24);
+}
+#menu p{
+    padding: 5px 0px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+#menu p:hover{
+    background-color: rgb(46, 46, 46);
+}
+.container0{
+    height: 50vh;
+    background-position: center;
+}
+.container0 p{
+    margin: 5px;
+}
+.container0 p:nth-child(1), .container0 P:nth-child(3){
+    font-size: 20px;
+}
+.container0 p:nth-child(2){
+    font-size: 80px;
+}
+
+#btn1{
+    padding: 10px 20px;
+}
+.container2{
+    width: 90%;
+    margin-left: 5%;
+}
+#ofr1{
+    background-position: center;
+}
+#ofr2{
+    background-position: center;
+}
+#ofr3{
+    background-position: center;
+}
+.container3{
+    width: 90%;
+    margin-left: 5%;
+}
+.container4{
+    background-position: center;
+    height: 50vh;
+}
+.container5{
+    width: 90%;
+    margin-left: 5%;
+}
+.container06{
+    width: 90%;
+    margin-left: 5%;
+}
+.container6{
+    width: 90%;
+    margin-left: 5%;
+}
+.pic{
+    height: 40vh;
+    background-repeat: no-repeat;
+}
+#ftr1{
+    width: 100%;
+    margin-bottom: 3%;
+}
+.container9{
+    flex-direction: column;
+}
+.container6 {
+    margin-top: 5%;
+    display: grid;
+    width: 80%;
+    margin-left: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "aa bb"
+                        "dd ee"
+                        "cc ff";
+    row-gap: 5%;
+    column-gap: 2%;
+}
+.container7 {
+    margin-top: 13%;
+    display: flex;
+    flex-direction: row;
+}
+#load1 {
+    text-align: center;
+    margin-top: 25%;
+}
